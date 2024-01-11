@@ -3,12 +3,10 @@ Introduction
 
 .. _Introduction:
 
-Introduction
-------------
 In this chapter we aim to explain the concepts of Geoportal, its role in In this chapter, we aim to explain the concepts of Geoportal, its role in Spatial Data Infrastructure (SDI), and the overall working of Gambia EbA Geoportal.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Contents:
 
 ------------
@@ -17,7 +15,7 @@ Basic Concept of Geoportals
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Contents:
    
 --------------
