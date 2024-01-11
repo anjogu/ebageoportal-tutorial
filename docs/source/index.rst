@@ -1,5 +1,8 @@
-Welcome to Lumache's documentation!
+Welcome to EBA Geoportal’s documentation!
 ===================================
+
+This documentation targets users with some or no familiarity with geoportals or geospatial platforms. The tutorial focuses on setting up geoportal components, its users, and the features it contains.
+
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
