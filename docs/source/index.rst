@@ -17,5 +17,5 @@ Contents
 
    Introduction
    installation
-   Introduction to EBA Geoportal
+   EBA Geoportal
    User profile
