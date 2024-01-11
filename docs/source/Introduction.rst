@@ -31,6 +31,7 @@ Policies include the identification of organizations that will collect spatial d
 Types of data collection (like hydrological, demographic, etc.), who will be the
 owner and who will have access to spatial data, and at what level are also part
 of policies. Policies also include information regarding updating spatial data.
+
 • Standards
 Standards (regarding data) include Coordinate Reference System (CRS) which
 will be used to collect spatial data at the source and for distribution, metadata and
