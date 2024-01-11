@@ -72,3 +72,43 @@ Check that your system is already up-to-date with the repository running the fol
 Packages Installation
 ------------
 First, we are going to install all the system packages needed for the GeoNode setup. Login to the target machine and execute the following commands:
+
+
+.. code-block:: console
+    # Install packages from GeoNode core
+    sudo apt install -y build-essential gdal-bin \
+    python3.10-dev \
+    libxml2 libxml2-dev gettext \
+    libxslt1-dev libjpeg-dev libpng-dev libpq-dev libgdal-dev \
+    software-properties-common build-essential \
+    git unzip gcc zlib1g-dev libgeos-dev libproj-dev \
+    
+    #sqlite3 spatialite-bin libsqlite3-mod-spatialite libsqlite3-dev
+
+    # Install Openjdk
+    sudo apt install openjdk-11-jdk-headless default-jdk-headless -y
+    sudo update-java-alternatives --jre-headless --jre --set java-1.11.0-openjdk-arm64
+
+    # Verify GDAL version
+    gdalinfo --version
+      $> GDAL 3.4.1, released 2021/12/27
+      
+
+    # Verify Python version
+    python3.10 --version
+    $> Python 3.10.12
+
+    which python3.10
+    $> /usr/bin/python3.10
+
+    # Verify Java version
+    java -version
+        $> openjdk version "11.0.21" 2023-10-17
+        $> OpenJDK Runtime Environment (build 11.0.21+9-post-Ubuntu-0ubuntu122.04)
+        $> OpenJDK 64-Bit Server VM (build 11.0.21+9-post-Ubuntu-0ubuntu122.04, mixed mode)
+
+    # Install VIM
+    sudo apt install -y vim
+
+    # Cleanup the packages
+    sudo apt update -y; sudo apt upgrade -y; sudo apt autoremove --purge
