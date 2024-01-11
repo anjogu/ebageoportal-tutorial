@@ -75,6 +75,7 @@ First, we are going to install all the system packages needed for the GeoNode se
 
 
 .. code-block:: console
+    
     # Install packages from GeoNode core
     sudo apt install -y build-essential gdal-bin \
     python3.10-dev \
