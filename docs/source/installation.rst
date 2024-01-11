@@ -48,7 +48,6 @@ Install the dependancies
 
 In this section we are going to install the basic packages and tools needed for the complete Geoportal installation.
 
-
 .. toctree::
    :maxdepth: 4
    :caption: Contents:
@@ -63,3 +62,13 @@ Check that your system is already up-to-date with the repository running the fol
 
     sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
     sudo apt update -y; sudo apt upgrade -y;
+
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Contents:
+
+------------
+Packages Installation
+------------
+First, we are going to install all the system packages needed for the GeoNode setup. Login to the target machine and execute the following commands:
