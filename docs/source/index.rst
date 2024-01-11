@@ -1,13 +1,9 @@
 Welcome to EBA Geoportal’s documentation!
 ===================================
-
 This documentation targets users with some or no familiarity with geoportals or geospatial platforms. The tutorial focuses on setting up geoportal components, its users, and the features it contains.
-
-
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+This document
+has seven chapters which define the detailed working/functionalities of Gambia
+EbA Geoportal where
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
