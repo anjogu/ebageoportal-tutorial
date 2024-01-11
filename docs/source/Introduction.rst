@@ -3,7 +3,7 @@ Introduction
 
 .. _Introduction:
 
-Basic Concept of Geoportals
+Introduction
 ------------
 
 
