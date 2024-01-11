@@ -17,3 +17,4 @@ Contents
 
    Introduction
    User profile
+   Installation
