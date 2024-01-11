@@ -17,5 +17,5 @@ Contents
 
    Introduction
    installation
-   Introduction to Gambia EbA Geoportal
+   Introduction to EBA Geoportal
    User profile
