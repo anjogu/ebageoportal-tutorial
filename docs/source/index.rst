@@ -16,5 +16,6 @@ Contents
 .. toctree::
 
    Introduction
-   User profile
    installation
+   Introduction to Gambia EbA Geoportal
+   User profile
