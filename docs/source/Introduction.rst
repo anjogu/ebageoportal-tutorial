@@ -33,9 +33,14 @@ owner and who will have access to spatial data, and at what level are also part
 of policies. Policies also include information regarding updating spatial data.
 
 • Standards
+
 Standards (regarding data) include Coordinate Reference System (CRS) which
 will be used to collect spatial data at the source and for distribution, metadata and
 types of final outputs that will be distributed.
+
+.. image:: _static/parsat_gis.png
+   :width: 400
+   :alt: Gis Components
 
 .. autosummary::
    :toctree: generated
