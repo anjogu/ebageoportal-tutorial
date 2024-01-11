@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+EBA Geoportal Tutorial documentationon readthedocs
 =======================================
 
-This GitHub template includes fictional Python library
+This GitHub tutorial includes fictional Python library
 with some basic Sphinx docs.
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
