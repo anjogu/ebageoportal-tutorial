@@ -1,7 +1,9 @@
-Basic Concept of Geoportals
+Introduction
 ===
 
-Spatial Data Infrastructure (SDI)
+.. _Introduction:
+
+Basic Concept of Geoportals
 ------------
 
 
