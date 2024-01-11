@@ -1,4 +1,4 @@
-Introduction
+Basic Concept of Geoportals
 ===
 
 .. autosummary::

@@ -1,9 +1,9 @@
 User Profile
 =====
 
-.. _installation:
+.. _Spatial Data Infrastructure (SDI):
 
-Installation
+Spatial Data Infrastructure (SDI)s
 ------------
 
 To use Lumache, first install it using pip:
