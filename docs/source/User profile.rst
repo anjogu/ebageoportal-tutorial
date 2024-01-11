@@ -1,4 +1,4 @@
-User profile
+User Profile
 =====
 
 .. _installation:
