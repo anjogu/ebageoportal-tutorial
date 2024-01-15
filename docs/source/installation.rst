@@ -83,6 +83,7 @@ First, we are going to install all the system packages needed for the GeoNode se
     libxslt1-dev libjpeg-dev libpng-dev libpq-dev libgdal-dev \
     software-properties-common build-essential \
     git unzip gcc zlib1g-dev libgeos-dev libproj-dev \
+    python3-pip
     
     #sqlite3 spatialite-bin libsqlite3-mod-spatialite libsqlite3-dev
 
@@ -113,3 +114,6 @@ First, we are going to install all the system packages needed for the GeoNode se
 
     # Cleanup the packages
     sudo apt update -y; sudo apt upgrade -y; sudo apt autoremove --purge
+
+    # Install the Python packages
+    
