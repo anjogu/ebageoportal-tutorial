@@ -114,6 +114,18 @@ First, we are going to install all the system packages needed for the GeoNode se
 
     # Cleanup the packages
     sudo apt update -y; sudo apt upgrade -y; sudo apt autoremove --purge
+    
+    # install Django==3.2.16
+    sudo pip install DJango==3.2.16
+
+    # Clone the geoNode-project source code on /opt/django_dev
+    cd /opt/django_dev/; git clone https://github.com/GeoNode/geonode-project.git -b 4.2.x geonode
+    
+    # Generate the project
+
+    django-admin startproject --template=./geonode-project -e py,sh,md,rst,json,yml,ini,env,sample,properties -n monitoring-cron -n Dockerfile ebageoportal
 
     # Install the Python packages
-    
+    cd /opt/django_dev/ebageoportal
+    cd src
+    sudo pip install -r requirements.txt --upgrade
