@@ -136,7 +136,7 @@ First, we are going to install all the system packages needed for the GeoNode se
    :caption: Contents:
 
 ------------
-Webserver setup 
+Web Server setup(Apache) 
 ------------
 
 To deploy the geoportal application on a production environment, one can set it up using docker or as a bare metal setup. For the purpose of this documentation, we will set up the geoportal in a bare metal setup. To do this, we will configure a webserver to run our application. We are going to use Apache webserver. 
