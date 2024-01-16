@@ -129,3 +129,35 @@ First, we are going to install all the system packages needed for the GeoNode se
     cd /opt/django_dev/ebageoportal
     cd src
     sudo pip install -r requirements.txt --upgrade
+
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Contents:
+
+------------
+Webserver setup 
+------------
+
+To deploy the geoportal application on a production environment, one can set it up using docker or as a bare metal setup. For the purpose of this documentation, we will set up the geoportal in a bare metal setup. To do this, we will configure a webserver to run our application. We are going to use Apache webserver. 
+To set up and configure Apache, we are going to run the commands below. To check if Apache has been set up on your server, run the code below
+
+.. code-block:: console
+   sudo service apache2 status
+
+   #if you get the message below, then apache has not been installed
+   >Unit apache2.service could not be found.
+
+Now to install Apache webserver, runn the following commands;
+
+
+.. code-block:: console
+   sudo apt update
+
+   then,
+
+   sudo apt upgrade
+
+   then,
+
+   sudo apt install apache2
