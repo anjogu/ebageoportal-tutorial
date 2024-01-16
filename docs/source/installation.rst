@@ -152,12 +152,9 @@ Now to install Apache webserver, runn the following commands;
 
 
 .. code-block:: console
-   sudo apt update
+   sudo apt update; sudo apt upgrade -y; sudo apt autoremove --purge; 
 
    then,
 
-   sudo apt upgrade
-
-   then,
-
-   sudo apt install apache2
+   sudo apt install -y gcc apache2 libapache2-mod-wsgi-py3 libgeos-dev  libjpeg-dev libpng-dev libpq-dev libproj-dev libxml2-dev libxslt1-dev
+   
