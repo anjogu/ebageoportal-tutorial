@@ -157,4 +157,9 @@ Now to install Apache webserver, runn the following commands;
    then,
 
    sudo apt install -y gcc apache2 libapache2-mod-wsgi-py3 libgeos-dev  libjpeg-dev libpng-dev libpq-dev libproj-dev libxml2-dev libxslt1-dev
-   
+
+   # copy .conf file from the scripts directory to the apache sites-available directory
+   sudo cp /opt/django_dev/eba_geoportalv2/src/scripts/misc/apache2/geonode.conf.sample /etc/apache2/sites-available/eba.conf
+
+   # activate proxy and wsgi files
+   sudo a2enmod proxy; sudo a2enmod proxy_http; sudo a2enmod proxy_ajp; sudo a2enmod wsgi
