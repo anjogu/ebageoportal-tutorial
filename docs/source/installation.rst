@@ -116,19 +116,24 @@ First, we are going to install all the system packages needed for the GeoNode se
     sudo apt update -y; sudo apt upgrade -y; sudo apt autoremove --purge
     
     # install Django==3.2.16
-    sudo pip install DJango==3.2.16
+    sudo pip install Django==2.2.12
 
     # Clone the geoNode-project source code on /opt/django_dev
-    cd /opt/django_dev/; git clone https://github.com/GeoNode/geonode-project.git -b 4.2.x geonode
+    cd /opt/django_dev/; git clone https://github.com/GeoNode/geonode-project.git -b 3.3.x
     
     # Generate the project
 
-    django-admin startproject --template=./geonode-project -e py,sh,md,rst,json,yml,ini,env,sample,properties -n monitoring-cron -n Dockerfile ebageoportal
+     django-admin startproject --template=./geonode-project -e py,sh,md,rst,json,yml,ini,env,sample,properties -n monitoring-cron -n Dockerfile eba_bare
 
     # Install the Python packages
     cd /opt/django_dev/ebageoportal
     cd src
     sudo pip install -r requirements.txt --upgrade
+    
+    sudo pip install -e . --upgrade
+
+    # Install Gdal utilities
+    sudo pip install pygdal=="`gdal-config --version`.*"
 
 
 .. toctree::
@@ -163,3 +168,5 @@ Now to install Apache webserver, runn the following commands;
 
    # activate proxy and wsgi files
    sudo a2enmod proxy; sudo a2enmod proxy_http; sudo a2enmod proxy_ajp; sudo a2enmod wsgi
+   sudo a2dissite 000-default.conf; sudo a2ensite eba.conf
+
