@@ -170,3 +170,11 @@ Now to install Apache webserver, runn the following commands;
    sudo a2enmod proxy; sudo a2enmod proxy_http; sudo a2enmod proxy_ajp; sudo a2enmod wsgi
    sudo a2dissite 000-default.conf; sudo a2ensite eba.conf
 
+
+
+   # environment setup
+   python3.10 -m venv ~/.virtualenvs/envebadev
+
+   workon envebadev
+
+   
